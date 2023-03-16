@@ -1,0 +1,22 @@
+{
+    "maintenance": false,
+    "maintenance_message": "Le server est en maintenance.<br>Merci de bien vouloir essayer ultérieurement.",
+    "online": false,
+    "client_id": "",
+    "game_version": "1.19.4",
+    "verify": true,
+    "java": true,
+    "game_args": [],
+    "dataDirectory": "villagerp",
+    "ignored": ["crash-reports", "logs", "resourcepacks", "resources", "saves", "shaderpacks", "options.txt", "optionsof.txt"],
+    "loader": {
+        "type": "fabric",
+        "build": "latest",
+        "enable": true
+    },
+    "status": {
+        "nameServer": "Le village",
+        "ip": "dev.unsky.ùe",
+        "port": 25565
+    }
+}
