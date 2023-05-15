@@ -45,6 +45,9 @@ class Splash {
     async checkUpdate() {
         if (dev) return this.startLauncher();
         this.setStatus(`recherche de mise à jour...`);
+        this.setStatus(`démarrage du launcher...`);
+        ipcRenderer.send('main-window-open');
+        ipcRenderer.send('update-window-close');
 
         ipcRenderer.invoke('update-app').then(err => {
             if (err.error) {
