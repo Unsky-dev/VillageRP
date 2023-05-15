@@ -1,7 +1,7 @@
 {
     "name": "Village-RP",
     "preductname": "Village RP",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Village RP Launcher",
     "main": "src/app.js",
     "author": "Unsky",
