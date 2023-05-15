@@ -5,7 +5,7 @@
     "description": "Village RP Launcher",
     "main": "src/app.js",
     "author": "Unsky",
-    "url": "http://dev.unsky.me/launcher",
+    "url": "http://dev.unsky.me:57/",
     "engines": {
         "node": "^18.x.x"
     },
